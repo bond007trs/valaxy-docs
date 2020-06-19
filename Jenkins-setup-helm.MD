@@ -19,7 +19,7 @@ mkdir /var/lib/jenkins/.kube
 copy config file under .kube directory with jenkins ownership
 ```
 
-## Install tiller in Kubernetes master
+## Create serviceaccount tiller in Kubernetes master
 ```sh
 kubectl -n kube-system create serviceaccount tiller
 ```
